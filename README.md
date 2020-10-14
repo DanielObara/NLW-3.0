@@ -21,9 +21,9 @@
     <img alt="Stargazers" src="https://img.shields.io/github/stars/DanielObara/NLW-3.0?style=social">
   </a>
 </p>
-<!-- <p align="center">
-<a href="https://insomnia.rest/run/?label=NLW%201.0%20-%20Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2FDanielObara%2FNLW-1.0%2Fmaster%2Fbackend%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-</p> -->
+<p align="center">
+<a href="https://insomnia.rest/run/?label=NLW%203.0%20-%20Happy&uri=https%3A%2F%2Fraw.githubusercontent.com%2FDanielObara%2FNLW-3.0%2Fmaster%2Fbackend%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p>
 <p align="center">
   <a href="#-nlw">Next Level Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -42,7 +42,7 @@ An online and completely free event that will help you take the next step in you
 
 ### Days
 - Dia 1: Acelerando sua evolução 12/10 - :heavy_check_mark:
-- Dia 2: Olhando as oportunidades 13/10 - :construction:
+- Dia 2: Olhando as oportunidades 13/10 - :heavy_check_mark:
 - Dia 3: A escolha da Stack 14/10 - :construction:
 - Dia 4: Até 2 anos em 2 meses 15/10 - :construction:
 - Dia 5: Milha extra 16/10 - :construction:
@@ -79,9 +79,7 @@ From your command line:
 
 ### Install API 
 
-:construction: ...Under construction.. :construction:
-
-<!-- ```bash
+```bash
 # Clone this repository
 $ git clone https://github.com/DanielObara/NLW-3.0
 
@@ -92,16 +90,13 @@ $ cd NLW-3.0/backend
 $ yarn install
 
 # Run Migrates
-$ yarn knex:migrate
-
-# Run Seeds
-$ yarn knex:seed
+$ yarn typeorm migration:run
 
 # Start server
 $ yarn dev
 
 # running on port 3333
-``` -->
+```
 
 ### Install Front-end
 
@@ -125,7 +120,7 @@ $ yarn start
 
 <!-- ```bash
 # Clone this repository
-$ git clone https://github.com/DanielObara/NLW-1.0
+$ git clone https://github.com/DanielObara/NLW-3.0
 
 # Go into the repository
 $ cd NLW-1.0/mobile
