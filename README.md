@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center"> 
-	:construction: NextLevelWeek 3.0 🚀 In progress...:construction:
+	:heavy_check_mark: NextLevelWeek 3.0 🚀 :heavy_check_mark:
 </h4>
 <p align="center">	
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/DanielObara/NLW-3.0">
